@@ -1,0 +1,102 @@
+.feedback-form {
+  display: flex;
+  gap: 3vw;
+}
+
+.feedback-form .form {
+  /* width: 30vw; */
+  margin: 2vw;
+  box-shadow: -6px 10px 50px #aaaaaa;
+}
+
+.feedback-form .title {
+  height: 3vw;
+  margin: 0;
+  padding-top: 3vw;
+  background-color: #319f9f;
+  color: white;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+form {
+  padding: 1vw 4vw 4vw;
+  background-color: #f7f7f7;
+}
+
+.content {
+  /* padding-bottom: 1vw; */
+}
+
+.content p {
+  text-align: start;
+  font-size: 1.3vw;
+  font-weight: 550;
+}
+
+.content p span {
+  color: orangered;
+}
+
+input {
+  width: 21.5vw;
+  height: 2vw;
+  border: none;
+  border-bottom: 0.1vw solid;
+  background-color: #f7f7f7;
+  color: rgb(50, 49, 49);
+  font-size: 1vw;
+}
+
+input:focus {
+  outline: none;
+}
+
+.rating-star {
+  text-align: start;
+}
+
+.submit-button {
+  width: 7vw;
+  padding: 0.5vw;
+  background-color: transparent;
+  border: 0.1vw solid;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  font-weight: 500;
+  margin-top: 1vw;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 0.8vw !important;
+  color: red;
+}
+
+table {
+  /* display: block; */
+  overflow: hidden;
+  table-layout: auto;
+  border-collapse: collapse;
+  box-shadow: 2px 2px #ccc;
+  white-space: nowrap;
+  max-width: 95%;
+  overflow-x: auto;
+}
+
+thead {
+  background-color: #ccc;
+}
+
+table th {
+  padding: 0.2vw 1.5vw;
+}
+
+table td {
+  width: 20vw;
+  border-top: 0.1vw solid #ddd;
+  padding: 0vw 2vw;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: normal;
+}
